@@ -57,49 +57,54 @@ const Resume = (props) => {
     { skill: "React JS", ratingPercentage: 85 },
     { skill: "React Native", ratingPercentage: 85 },
     { skill: "Express JS", ratingPercentage: 89 },
-    { skill: "Node JS", ratingPercentage: 89 },
+    { skill: "Node JS", ratingPercentage: 40 },
     { skill: "Mongo Db", ratingPercentage: 70 },
-    { skill: "Core Java", ratingPercentage: 80 },
     { skill: "HTML", ratingPercentage: 80 },
     { skill: "CSS", ratingPercentage: 80 },
   ];
 
   const projectsDetails = [
     {
-      title: "Personal Portfolio Website",
+      title: "TimeKeepers Web App",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootsrap",
+        "● Developed a dynamic website for an online shopping service where users can book orders and make an online payment",
+      subHeading: "Technologies Used: : ReactJS, NodeJs, ExpressJs, MongoDB, Bootstrap, FirebaseAuthentication and hosting,React-hook-form, Heroku",
     },
     {
-      title: "Mobile E-shop ",
+      title: ". HopeMedical Service Web App ",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "An ecommerce application designed to sell products online wth payment system integration",
+        "Implemented firebase authentication system with the google private route, and Email sign-in method",
       subHeading:
-        "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
+        ": Html, CSS, Bootstrap, React.js, MongoDB,Firebase, Authentication, and hosting",
     },
     {
-      title: "Ecommerce Website ",
+      title: "Madang Food Delivery Web App ",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+        " Programmed to add new service process that will be shown on the home page dynamically order",
       subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+        "Technologies Used:ReactJS,ExpressJs,MongoDB,Bootstrap,FirebaseAuthentication and hosting,React-hook-form ,Heroku..",
     },
   ];
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"University of Legon Accra, Ghana"}
-        subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
-        fromDate={"2014"}
+        heading={"Jafargonj Mir Abdul Gafur Degree College"}
+        subHeading={" GRADUATE IN SCIENCE "}
+        fromDate={"2018"}
+        toDate={"2020"}
+      />
+      <ResumeHeading
+        heading={"High School "}
+        subHeading={"Bhirlla SK High School"}
+        fromDate={"2012"}
         toDate={"2018"}
       />
 
-      <ResumeHeading
+      {/* <ResumeHeading
         heading={"National Youth Service Corps"}
         subHeading={"Ministry Of Science And Technogy. Uyo Akwa Ibom State"}
         fromDate={"2019"}
@@ -110,7 +115,7 @@ const Resume = (props) => {
         subHeading={"Command Secondary School Mbiri"}
         fromDate={"2007"}
         toDate={"2012"}
-      />
+      /> */}
     </div>,
 
     /* WORK EXPERIENCE */
