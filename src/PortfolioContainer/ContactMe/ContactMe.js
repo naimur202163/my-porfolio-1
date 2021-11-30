@@ -5,14 +5,14 @@ const ContactMe = () => {
 
     <div className="row container">
       <h2 className="text-muted text-center ">Contact Me</h2>
-      <div className="col-lg-6 col-sm-12 my-5">
+      <div className="col-lg-7 col-sm-12 my-5">
 
         <div  >
           <img style={{ width: '100%' }} src="https://image.freepik.com/free-photo/communication-connection-speech-bubble-concept_53876-13807.jpg" alt="" />
         </div>
 
       </div>
-      <div className="col-lg-6 col-sm-12 my-4 ">
+      <div className="col-lg-5 col-sm-12 my-4 ">
 
 
 

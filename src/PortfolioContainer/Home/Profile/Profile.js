@@ -60,7 +60,7 @@ export default function Profile() {
 
           <div className="profile-options">
             <button style={{ color: "#fff", border: '1px solid #FF5823' }} className="btn primary-btn"> Hire Me </button>
-            <a href="#" download="g">
+            <a href="naimur's resume.pdf" download="naimur naimur's resume.pdf">
               <button style={{ backgroundColor: '#FF5823', color: '#fff' }} className="btn highlighted-btn">Get Resume</button>
             </a>
             {/* <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
