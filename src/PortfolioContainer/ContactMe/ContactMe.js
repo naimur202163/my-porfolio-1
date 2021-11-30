@@ -21,7 +21,7 @@ const ContactMe = () => {
         <Form action="https://formsubmit.co/naimur202163@gmail.com" method="POST" className="">
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
+            <Form.Control type="email" name="email" required type="email" placeholder="Enter email" />
             <Form.Text className="text-muted">
               We'll never share your email with anyone else.
             </Form.Text>
@@ -29,11 +29,11 @@ const ContactMe = () => {
 
           <Form.Group className="mb-3" controlId="formBasicText">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="name" placeholder="name" />
+            <Form.Control type="name" name="name" required placeholder="name" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicNumber">
             <Form.Label>Phone Number</Form.Label>
-            <Form.Control type="Number" placeholder="phone Number" />
+            <Form.Control type="Number" name="number" placeholder="phone Number" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicCheckbox">
             <Form.Check type="checkbox" label="Check me out" />
