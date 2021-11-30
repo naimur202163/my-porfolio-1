@@ -56,7 +56,7 @@ export default function AboutMe(props) {
             </div>
             <div className="about-me-options">
               <button style={{ backgroundColor: "#24263B", color: "#fff", border: '1px solid #FF5823' }} className="btn primary-btn"> Hire Me </button>
-              <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
+              <a href="naimur's resume.pdf" download="naimur naimur's resume.pdf">
                 <button style={{ backgroundColor: '#FF5823', color: '#fff' }} className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>
